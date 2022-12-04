@@ -25,6 +25,24 @@ class MyApp extends StatelessWidget {
          child: const Report()
         ),
       ), //ตัวจัดการหน้าตาแอพพลิเคชั่น พวก เมนูต่างๆLayout หรือโครงสร้างเค้าโครงของหน้าเเอพ//
+      theme: ThemeData(
+  textTheme: const TextTheme(
+    bodyText1: TextStyle(
+      fontSize: 20, 
+      color: Colors.white
+    ),
+    headline1: TextStyle(
+      fontSize: 72,
+      fontWeight: FontWeight.w900,
+      color: Colors.white,
+    ),
+    caption: TextStyle(
+      fontSize: 18,
+      fontStyle: FontStyle.italic,
+      color: Colors.yellow,
+    ),
+  )
+)
     );
   }
 }
